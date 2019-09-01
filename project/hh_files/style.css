@@ -1,0 +1,56 @@
+header {
+  background-color: pnk;
+  color: white;
+  padding: 0px;
+  
+
+}
+
+
+.my-menu {
+  background: none;
+  border: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+	.pull-right {
+		float: none !important;
+	}
+}
+
+
+
+main {
+  margin-top: 55px;
+}
+.sliderImg {
+  height: 439px;
+  width: 100%;
+}
+.heading {
+  font-size: 35px;
+  font-weight: 800;
+  border-width: 3px;
+  border-color: #009999;
+  border-bottom-style: ridge;
+  padding: 5px;
+}
+
+footer {
+  background-color: #009999;
+  padding: 12px;
+  color: white;
+  font-size: 15px;
+}
+
+.well:hover {
+	box-shadow: -1px 2px 12px #999999;
+}
+
+.social_icon {margin-left: 5px;}
+
+
+
+
+ 

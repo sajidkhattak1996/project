@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>reservation step  1</title>
+	<link rel="stylesheet" type="text/css" href="reservation_step1_css.css">
+<!--  the below link is for to create the calender  -->
+<!--     <link rel="stylesheet" href="css/theme1.css"/> -->
+
+<style type="text/css">
+	
+	/* css for the message box which are diaply and room selection is the msg */
+
+.msg_box {
+	background-color: #c3d7e2;
+	width: 830px;
+	height: 300px;
+	margin-left: 480px;
+	margin-top: 25px;
+}
+div.msg_box h3.msg{
+	color: #000;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 130px;
+	word-spacing: 8px;
+	font-size: 30px;
+	font-family: monotype corsiva;
+}
+div.msg_box h3.msg2{
+	color: #3a3a3a;
+	text-align: center;
+	letter-spacing: 0px;
+	margin-top: -60px;
+	word-spacing: 8px;
+	font-size: 18px;
+	font-family: artial;
+}
+/*css for line below the msg text */
+div.msg_box h3.line{
+	border-bottom: solid #e507cb 1px;
+}
+/* css for the button go to next step below the line */
+.msg_box input{
+margin-left: 280px;
+margin-top: 10px;
+width: 300px;
+height: 50px;
+color: #fff;
+background-color: #0099cc;
+font-size: 23px;
+border:solid #fff 1px;
+border-radius: 10px;
+}
+.msg_box:hover input{
+	cursor: pointer;
+	outline-color: deeppink;
+}
+</style>
+</head>
+<body>
+<div class="booking">
+	<h1>  BOOKING  </h1>
+</div>
+
+<div class="your_reservation">
+	<form>
+	<h2>  YOUR RESERVATION  </h2>
+	<h3><b> Hostel Branches </b></h3>
+	
+	<select name="select_branch">
+		<option>Select</option>
+		<option>Islamabad</option>
+		<option>Lahore</option>
+		<option>Peshawar</option>
+		<option>Karachi</option>
+		<option>Mardan</option>	
+	</select><br><br><br><br>
+
+	<label id="d">Enter Days : </label>
+	<input type="number" name="noday" id="day" min="1" max="999">
+
+	<input type="submit" name="" id="b1" value="CHECK AVALAIBALITY">
+
+	</form>
+</div>
+	
+	
+
+
+
+
+
+
+<div class="step_box">
+	<h3 class="step1"> 1 Chose Date</h3>
+	<h3 class="step2"> 2 Select Room</h3>
+	<h3 class="step3"> 3 Make a Reservation </h3>
+	<h3 class="step4"> 4 Confirmation</h3>
+</div>
+
+
+
+<!-- 	this the block for the creation of calender -->
+	<!-- <div class="cal1">
+    <div id="caleandar">
+    <script type="text/javascript" src="js/caleandar.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+    </div>
+    </div> -->
+
+
+<div class="msg_box">
+<h3 class="msg"> <b> <i> Room Selection is Complete</i></b></h3>
+<h3 class="msg2"><b> You can edit your booking by using the panel on the left </b></h3>
+<h3 class="line"></h3>
+<a href="sform.html"><input type="button" name="goto_next_step" value="GO TO NEXT STEP"></a>
+</div>
+
+
+</body>
+</html>

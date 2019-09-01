@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+	
+	<title>reservation step  3</title>
+	<link rel="stylesheet" type="text/css" href="reservation_step3_css.css">
+
+	<meta content="noindex, nofollow" name="robots">
+	<link href="formvalid.css" rel="stylesheet">
+	<script src="formvalid.js"></script>
+
+
+</head>
+<body style="background-color: #e2c7dd">
+<div class="booking">
+	<h1>  BOOKING  </h1>
+</div>
+
+<div class="step_box">
+	<h3 class="step1"> 1 Chose Date</h3>
+	<h3 class="step2"> 2 Select Room</h3>
+	<h3 class="step3"> 3 Make a Reservation </h3>
+	<h3 class="step4"> 4 Confirmation</h3>
+</div>
+
+<form name="myForm"  onsubmit="return validateForm()" >
+<div class="form">
+	    <div class="first_name">
+			<h3 class="first_name">First Name<span style="color: red">*</span></h3>
+			<input type="text" name="first_name" >
+			<p id="head"></p>
+			
+		</div>
+
+		<div class="last_name">
+			<h3 class="last_name">Last Name<span style="color: red">*</span></h3>
+			<input type="text" name="last_name">
+		</div>
+
+		<div class="father_name">
+			<h3 class="father_name">Father Name<span style="color: red">*</span></h3>
+			<input type="text" name="father_name">
+		</div>
+	
+		<div class="cnic">
+			<h3 class="cnic">CNIC<span style="color: red">*</span></h3>
+			<input type="number" name="cnic" min="13" max="14">
+		</div>
+
+		<div class="email">
+			<h3 class="email">Email<span style="color: red">*</span></h3>
+			<input type="email" name="email" >
+		</div>
+
+		<div class="phone_no">
+			<h3 class="phone_no">Phone No<span style="color: red">*</span></h3>
+			<input type="number" name="phone_no" min="0">
+		</div>
+
+		<div class="address">
+			<h3>Address:</h3>
+			<input type="text" name="address" min="5" max="300">
+		</div>
+</div>
+<div class="book_now">
+	<a href="res_step3.php"><input type="submit" name="book_now" value="BOOK NOW BY EMAIL AND WE WILL CONTACT YOU BACK"></a>
+	
+</div>
+</form>
+</div>
+
+<script type="text/javascript">
+		function validateForm(){
+			var fname = document.forms["myForm"]["first_name"].value;
+			var lname = document.forms["myForm"]["last_name"].value;
+			var fathername = document.forms["myForm"]["father_name"].value;
+			var cnic = document.forms["myForm"]['cnic'].value;
+			var em = document.forms["myForm"]["email"].value;
+			var mobile =  document.forms["myForm"]["phone_no"].value;
+			var add = document.forms["myForm"]["address"].value;
+
+
+			if (fname.value.length == 0) {
+					document.getElementById('head').innerText = "* All fields are mandatory *"; // This segment displays the validation rule for all fields
+					fname.focus();
+					return false;
+					}
+
+
+					/*
+
+			if (fname ==""){ return alert("Please fill the First Name"); return false; }
+			if (lname ==""){ return alert("Please fill the Last Name"); return false;}
+			if (fathername ==""){ return alert("Please fill the Father Name"); return false;}
+			if (cnin ==""){ return alert("Please Enter the CNIC"); return false;}
+			if (em ==""){ return alert("Please Enter the Email"); return false;}
+			if (mobile ==""){ return alert("Please fill the Mobile number"); return false;}
+			if (add ==""){ return alert("Please fill the Address"); return false;}
+*/
+
+		}
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

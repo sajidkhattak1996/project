@@ -1,0 +1,145 @@
+/* main text for reservation , top text */
+.booking h1{
+	margin-left: 529px;
+	color: deeppink;
+	font-size: 60px;
+	font-family: monotype corsiva;
+	letter-spacing: 5px;
+}
+/* side box in which reservatoin are written */
+
+.your_reservation h2{
+	text-align: center;
+	font-family: artial;
+	color: yellow;
+	letter-spacing: 2px;
+
+}
+
+
+.your_reservation select{
+	margin-top: -10px;
+	width: 85%;
+	height: 30px;
+	margin-left: 20px;
+	background-color: #fff;
+	font-size: 18px;
+	font-style: italic;
+	letter-spacing: 0.5px;
+	
+}
+
+/* css for the above step box for reservation */
+
+.step_box h3.step1{
+	margin-left: 20px;
+	line-height: 50px;
+	margin-top: -68px;
+	color: #999999;
+}
+.step_box h3.step2{
+	margin-left: 200px;
+	line-height: 50px;
+	margin-top: -68px;
+	color: #fff;
+}
+.step_box h3.step3{
+	margin-left: 400px;
+	margin-top: -68px;
+	line-height: 50px;
+	color: #999999;
+}
+
+.step_box h3.step4{
+	margin-left: 660px;
+	margin-top: -68px;
+	line-height: 50px;
+	color: #999999;
+}
+/* pic display for reservation */
+.pic img{
+	height: 120px;
+	width: 200px;
+	margin-left: 480px;
+	margin-top: 20px;
+}
+/* top heading for the for the room ,  above the icon and side of the room */
+.pic h2{
+	margin-left: 730px;
+	letter-spacing: 5px;
+	margin-top: -120px;
+	color: deeppink;
+}
+
+/* icon movement */
+div.icon{
+	margin-left: 800px;
+}
+/*image css for all icon */
+div.icon img{
+	height: 20px;
+	width: 22px;
+}
+/* text css for all icon */
+div.icon h6{
+font-size: 14px;
+margin-left: -23px;
+margin-top: 20px;
+}
+
+/* separate for icon css */
+div.icon div.icon1{
+	margin-left: -25px;
+}
+.icon .icon1 h6{
+	margin-left: -40px;
+}
+div.icon div.icon2{
+	margin-left: 180px;
+	margin-top: -92px;
+}
+
+div.icon div.icon3{
+	margin-left: 360px;
+	margin-top: -92px;
+}
+div.icon div.detail_1 h3{
+margin-left: -160px;
+word-spacing: 5px;
+letter-spacing: 1px;
+font-size: 20px;
+}
+/* css of the button select this room */
+div.icon div.select_button input{
+	width: 250px;
+	height: 55px;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 0.2px;
+	font-family: Myriad pro;
+	background-color: #0099cc;
+	border-color: #0099cc;
+	border-radius: 10px;	
+}
+/* movememt of the button Select this room */
+div.icon div.select_button{
+	margin-left: -63px;
+	margin-top:50px;
+}
+div.icon div.select_button:hover input{
+	outline-color: deeppink;
+	cursor: pointer;
+}
+
+
+/* css for the mony which are the right side of the button select this room  */
+div.icon div.select_button h3{
+	margin-left: 350px;
+	margin-top: -60px;
+	font-size: 29px;
+}
+/* css for the bunk room selection and it the large container for them */
+div.bunk_bed{
+	margin-top: 30px;
+}
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin page</title>
+<!-- 	<meta http-equiv="refresh" content="1"> -->
+<style type="text/css">
+	#h{
+		text-align: center;
+		font-family: monotype corsiva;
+		word-spacing: 5px;
+		color: #3a6ed8;
+
+	}
+
+	body{
+		background-color: #bfd8f3;
+	}
+	.fdiv{
+		background-color: #9bbae9;
+		width: 50%;
+		height: 500px;
+		margin-left: 25%;
+		border:solid #0099cc 2px;
+		border-radius: 12px;
+	}
+#adminform{
+		border:solid 2px blue;
+		margin-left: 1px;
+		margin-top: 1px;
+		width: 99.13%;
+		height: 494px;
+		border-radius: 12px;
+}
+#fdivin{
+	margin-left: 160px;
+	margin-top:20px;
+
+}
+#fdivin label{
+	word-spacing: 10px;
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-family: curlz mt;
+}
+#fdivin input{
+	width: 330px;
+	height: 28px;
+	border:solid 2px #0099cc;
+	border-radius: 6px;
+}
+#msg{
+	color: red;
+	font-size: 20px;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+}
+
+</style>
+
+
+</head>
+<body>
+
+
+<h1 id="h"><b>WELLCOME TO THE ADMINISTRATIVE PAGE </b></h1>
+
+<div class="fdiv">
+	<form id="adminform" name="fm">
+		<div id="fdivin">
+
+		<label><strong>Enter Valid Name</strong></label><br>
+		<input type="text" name="name"><br><br>
+		
+		<label><strong>Enter Email</strong></label><br>
+        <input type="email" name="email"><br><br>
+		
+		<label><strong>Enter Password</strong></label><br>
+		<input type="Password" name="password"><br><br>
+		
+		<p id="msg"></p>
+		
+		<input type="submit" name="" value="Login" style="height: 50px;width: 450px; margin-left: -50px;margin-top:  30px;border: solid blue 2px;font-size: 35px;font-family: curlz mt;letter-spacing: 8px;background-color: #0099cc;color: #fff;border-radius: 45px 0px 45px 0px;" onclick="return fn()">
+		
+		</div>
+	</form>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+	function fn() {
+		 var name = document.fm.name.value;
+		 var email = document.fm.email.value;
+		 var pass = document.fm.password.value;
+
+		if (name=="") {
+		 	document.getElementById('msg').innerText = "* Please Select the Hostel Branch *"; 
+		 	// This segment displays the validation rule for  fields
+			return false;
+		}
+
+
+	}
+
+
+</script>

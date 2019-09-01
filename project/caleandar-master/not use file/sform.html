@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+<head>
+	
+	<title>reservation step  3</title>
+	<link rel="stylesheet" type="text/css" href="reservation_step3_css.css">
+
+	<meta content="noindex, nofollow" name="robots">
+	<link href="formvalid.css" rel="stylesheet">
+	<script src="formvalid.js"></script>
+	<style>
+				#form{
+			margin-left: 270px;
+			margin-top: 50px;
+		}
+		/*lebel for first name */
+		#f1{word-spacing: 8px;}
+		#firstname{
+			width: 250px;
+			height: 23px;
+			margin-left: 10px;
+
+	/* css for last name */
+		}
+		#ln{
+			word-spacing: 5px;
+			margin-left: 140px;
+			}
+		#lastname{
+			width: 250px;
+			height: 23px;
+		}
+		/*father name lebel and input */
+		#fn{
+			word-spacing: 5px;
+			margin-left: 0px;
+		}
+		#fathername{
+			width: 250px;
+			height: 23px;
+		}
+		#nic{
+			margin-left: 140px; 
+
+		}
+		#cnic{
+			width: 250px;
+			height: 23px;
+		}
+
+		#eml{
+			margin-left: 30px;
+			word-spacing: 5px;
+			letter-spacing: 1.5px;
+		}
+		#email{
+			margin-left: 10px;
+			width: 250px;
+			height: 23px;
+		}
+		.mn{
+			margin-left: 495px;
+			margin-top: -45px;
+		}
+		#mbn{
+			word-spacing: 2px;
+			letter-spacing: 0.5px;
+		}
+		#mno{
+			height: 23px;
+			width: 250px;
+		}
+		#add{
+			margin-left: 30px;
+			word-spacing: 2px;
+			letter-spacing: 0.5px;
+		}
+		#addr{
+			border-radius: 3px; 
+			width: 735px;
+			height: 53px;
+		}
+		/*button  css  */
+		#submit{
+			color: #fff;
+			margin-left: 95px;
+			background-color: #0099cc;
+			width: 740px;
+			height: 50px;
+			word-spacing: 1px;
+			font-size: 20px;
+			border-radius: 10px;
+			border:solid #0099cc 3px;
+		}
+	#submit:hover {
+	cursor: pointer;
+	}
+
+	/*valiadation mgs css when wrong entry */
+		#head{
+			margin-left: 300px;
+			margin-top: -10px;
+			word-spacing: 3px;
+			letter-spacing: 0.5px;
+			
+		}
+
+		
+
+	</style>
+	
+
+</head>
+<body style="background-color: #e2c7dd">
+<div class="booking">
+	<h1>  BOOKING  </h1>
+</div>
+
+<div class="step_box">
+	<h3 class="step1"> 1 Chose Date</h3>
+	<h3 class="step2"> 2 Select Room</h3>
+	<h3 class="step3"> 3 Make a Reservation </h3>
+	<h3 class="step4"> 4 Confirmation</h3>
+</div>
+<div id="form">
+<p id="head" style="color: red"></p>
+<!-- This segment displays the validation rule -->
+<h2></h2>
+
+
+<!-- Form starts from here -->
+<form onsubmit='return formValidation()'>
+<p id="p1"></p>
+<label id="f1">First Name:</label>
+<input id='firstname' type='text' placeholder="  space not allowed in name">
+
+
+
+<label id="ln">Last Name:</label>
+<input id='lastname' type='text'>
+<br><br><br>
+
+<label id="fn">Father Name:</label>
+<input id='fathername' type='text'>
+
+<label id="nic">Enter CNIC:</label>
+ <input type="text" id="cnic" 
+pattern="[0-9]{5}-[0-9]{7}-[0-9]{1}" title="CNIC Formate must be followed: xxxxx-xxxxxxx-x " placeholder="XXXXX-XXXXXXX-X"><br><br><br>
+
+<label id="eml">Email:</label>
+<input id='email' type='email'>
+<p id="p3"></p>
+
+<div class="mn">
+<label id="mbn">Mobile No:</label>
+<input type="number" id="mno"   min="11" >
+<p id="p4"></p>
+</div><br>
+<!-- This segment displays the validation rule for selection -->
+<label id="add">Address:</label>
+<input id='addr' type='text'>
+<p id="p5"></p> 
+<!-- This segment displays the validation rule for address -->
+<br>
+<a href="reservation_step4.html"><input id="submit" type='submit' value='BOOK NOW BY EMAIL AND WE WILL CONTACT YOU BACK' ></a>
+</form>
+
+
+</div>
+
+
+
+
+</body>
+</html>
+<script type="text/javascript">
+function formValidation(){
+// Make quick references to our fields.
+var firstname = document.getElementById('firstname');
+var lastname = document.getElementById('lastname');
+var fathername = document.getElementById('fathername');
+var mobile = document.getElementById('mno');
+var addr = document.getElementById('addr');
+var email = document.getElementById('email');
+var cnic = document.getElementById('cnic');
+
+// To check empty form fields.
+// it check the first name for empty
+if (firstname.value.length== 0) {
+document.getElementById('head').innerText = "* First name must be fill *"; // This segment displays the validation rule for all fields
+firstname.focus();
+return false;
+}
+
+// it check the lastname for the empty 
+if (lastname.value.length == 0) {
+document.getElementById('head').innerText = "* Last name must be fill *"; // This segment displays the validation rule for all fields
+lastname.focus();
+return false;
+}
+
+// it check the father name for the empty 
+if (fathername.value.length == 0) {
+document.getElementById('head').innerText = "* Father name must be fill *"; // This segment displays the validation rule for all fields
+fathername.focus();
+return false;
+}
+// it check the moible number field is empty or not 
+if (mobile.value.length == 0) {
+document.getElementById('head').innerText = "* Mobile Must be Entered *"; // This segment displays the validation rule for all fields
+mobile.focus();
+return false;
+}
+// it check if address are empty are not 
+
+if (addr.value.length == 0) {
+document.getElementById('head').innerText = "* Address must be fill *"; // This segment displays the validation rule for all fields
+addr.focus();
+return false;
+}
+//it check empty for the email address 
+
+if (email.value.length == 0) {
+document.getElementById('head').innerText = "* Email must be fill *"; // This segment displays the validation rule for all fields
+email.focus();
+return false;
+}
+//it check for the cnic 
+if (cnic.value.length == 0) {
+document.getElementById('head').innerText = "* CNIC must be fill *"; // This segment displays the validation rule for all fields
+cnic.focus();
+return false;
+}
+
+//Check each input in the order that it appears in the form.
+
+if (inputAlphabet(firstname, "* For your name please use alphabets only *")) {
+//if (inputAlphabet(lastname, "* For your name please use alphabets only *")){
+if (inputAlphabet(fathername, "* For your name please use alphabets only *")){
+if (emailValidation(email, "* Please enter a valid email address *")) {
+if (textAlphanumeric(addr, "* For Address please use numbers and letters *")) {
+return true;}}}}
+
+return false;
+}
+
+// Function that checks whether input text is an alphabetic character or not.
+function inputAlphabet(inputtext, alertMsg) {
+var alphaExp = /^[a-zA-Z]+$/;
+if (inputtext.value.match(alphaExp)) {
+return true;
+} else {
+document.getElementById('p1').innerText = alertMsg; // This segment displays the validation rule for name.
+//alert(alertMsg);
+inputtext.focus();
+return false;
+}
+}
+
+//Function that checks whether an user entered valid email address or not and displays alert message on wrong email address format.
+function emailValidation(inputtext, alertMsg) {
+var emailExp = /^[w-.+]+@[a-zA-Z0-9.-]+.[a-zA-z0-9]{2,4}$/;
+if (inputtext.value.match(emailExp)) {
+return true;
+} 
+else {
+document.getElementById('p3').innerText = alertMsg; // This segment displays the validation rule for email.
+inputtext.focus();
+return false;
+}
+}
+
+
+
+</script>

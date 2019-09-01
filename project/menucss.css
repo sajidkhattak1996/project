@@ -1,0 +1,40 @@
+img
+{
+	width: 140px;
+	margin-top: -35px;
+	margin-left: 10px;
+}
+
+
+	body{
+		margin: 0;
+	}
+
+.menu_design{
+	padding: 10px;
+	 background-color: #0099cc;
+	 height: 25px;
+	 margin: auto;
+	 font-family: arial;
+
+}
+
+.menu{
+ width: 100%;
+	height: 60px;
+	background: #0099cc;
+	 }
+
+
+.menu a{
+
+	float: left;
+	margin-left: 280px;
+	margin-right: -150px; 
+	display: block; color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px 0px; 
+	font-size: 20px;
+	font-family: arial;
+}

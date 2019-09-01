@@ -1,0 +1,153 @@
+/* for blinkin of the text 	
+	.booking {
+    animation:booking  5s infinite;
+}
+@keyframes booking {
+    10%{    color: deeppink; }
+    20%{    color:blue; }
+    80%{    color: yellow; }
+    30%{    color: deeppink; }
+    10%{    color: red; }
+}
+*/
+#bo{
+    color: deeppink;
+    font-size: 60px;
+    font-family: monotype corsiva;
+    letter-spacing: 5px;
+
+    
+}
+.booking{
+   
+    width: 400px;
+    margin-left: 550px;
+
+
+}
+
+
+
+
+/* css for the above step box for reservation */
+.step_box{
+    background-color: #0099cc;
+   margin-top: 110px;
+   margin-left: 150px;
+   j
+    height: 50px;
+    width: 1050px;
+}
+.step_box h3.step1{
+    margin-left: 20px;
+    line-height: 50px;
+    margin-top: -68px;
+    color: #999999;
+}
+.step_box h3.step2{
+    margin-left: 270px;
+    line-height: 50px;
+    margin-top: -68px;
+    color: #999999;
+}
+.step_box h3.step3{
+    margin-left: 540px;
+    margin-top: -68px;
+    line-height: 50px;
+    color: #999999;
+}
+
+.step_box h3.step4{
+    margin-left: 880px;
+    margin-top: -68px;
+    line-height: 50px;
+    color: #fff;
+}
+
+/* css for conformation step4 or the box below the step box */
+.last_msg{
+    background-color: #3399cc;
+    margin-left: 150px;
+    margin-right: 135px;
+    height: 720px;
+    
+        border:solid #336699 2px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 400px;
+}
+.last_msg div.rc h1{
+    color: #fff;
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: 5px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.last_msg div.rc h2{
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 1.0px;
+    word-spacing: 4px;
+    font-family: consolas;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.last_msg div.rc div.no img{
+  height: 15px;
+  width: 16px;
+  margin-left: 10px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+
+}
+.last_msg div.rc div.no h3.h3{
+    margin-left: 35px;
+    margin-top: -50px;
+    letter-spacing: 0.5px;
+}
+.last_msg div.rc div.no h3.h3 img{
+    width: 25px;
+    height: 18px;
+    margin-top: 0px;
+    margin-bottom: -2px;
+    margin-left: 20px;
+}
+
+.last_msg div.rc div.no div.internal h2{
+    margin-left: 200px;
+    margin-top: -24px;
+    color: #000;
+}
+.last_msg div.rc div.no div.internal h1{
+    margin-left: 470px;
+    margin-top: -44px;
+    font-size: 25px;
+}
+/*css for the Note: */
+.last_msg div.rc div.no div.internal h3{
+    margin-top: -14px;
+    margin-left: -24px;
+    font-size: 18px;
+    font-family: gungsuh;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+.last_msg div.rc div.no div.internal h4{
+    margin-top: -40px;
+    margin-left: 40px;
+}
+/* css for the Cancellation and Policiy */
+.last_msg div.policy{
+    margin-left: 10px;
+}
+.last_msg div.policy h1{
+    color: #fff;
+}
+/* css for other Term & Condition */
+.last_msg div.other_condition{
+margin-left: 10px;
+}
+
+.last_msg div.other_condition h1{
+color: #fff;
+}

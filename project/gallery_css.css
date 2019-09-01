@@ -1,0 +1,451 @@
+h1{
+	text-align: center;
+	color: 000;
+	font-family: monotype corsiva;
+	font-size: 50px;
+
+
+}
+/*#pp {
+	margin-left: 0px;
+	width: 280px;
+	height: 220px;
+	transition: all is ease-in;
+	
+}*/
+div.c1{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: -10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.c1:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+
+
+div.c2{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: -10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.c2:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+div.c3{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 670px;
+	margin-top: -10px;
+	cursor: pointer;
+	overflow: hidden;
+}.c3:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+div.c4{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 990px;
+	margin-top: -10px;
+	cursor: pointer;
+	overflow: hidden;
+}.c4:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+.Internal{
+text-align: center;
+padding: 170px 400px;
+font-family: monotype corsiva;
+font-size: 30px;
+color: 000;
+
+}
+
+div.c5{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 300px;
+	cursor: pointer;
+	overflow: hidden;
+}.c5:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+div.c6{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 300px;
+	cursor: pointer;
+	overflow: hidden;
+}.c6:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c7{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 670px;
+	margin-top: 300px;
+	cursor: pointer;
+	overflow: hidden;
+}.c7:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c8{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 990px;
+	margin-top: 300px;
+	cursor: pointer;
+	overflow: hidden;
+}.c8:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+div.c9{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 500px;
+	cursor: pointer;
+	overflow: hidden;
+}.c9:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+div.c10{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 500px;
+	cursor: pointer;
+	overflow: hidden;
+}.c10:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c11{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 670px;
+	margin-top: 500px;
+	cursor: pointer;
+	overflow: hidden;
+}.c11:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c12{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 990px;
+	margin-top: 500px;
+	cursor: pointer;
+	overflow: hidden;
+}.c12:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+div.c13{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 700px;
+	cursor: pointer;
+	overflow: hidden;
+}.c13:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+div.c14{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 700px;
+	cursor: pointer;
+	overflow: hidden;
+}.c14:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c15{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 670px;
+	margin-top: 700px;
+	cursor: pointer;
+	overflow: hidden;
+}.c15:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c16{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 990px;
+	margin-top: 700px;
+	cursor: pointer;
+	overflow: hidden;
+}.c16:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+.room{
+text-align: center;
+padding: 450px 400px;
+font-family: monotype corsiva;
+font-size: 30px;
+color: 000;
+
+}
+
+div.c17{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 1050px;
+	cursor: pointer;
+	overflow: hidden;
+}.c17:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+div.c18{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 1050px;
+	cursor: pointer;
+	overflow: hidden;
+}.c18:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c19{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 670px;
+	margin-top: 1050px;
+	cursor: pointer;
+	overflow: hidden;
+}.c19:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c20{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 990px;
+	margin-top: 1050px;
+	cursor: pointer;
+	overflow: hidden;
+}.c20:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+
+
+div.c21{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 1260px;
+	cursor: pointer;
+	overflow: hidden;
+}.c21:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+div.c22{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 1260px;
+	cursor: pointer;
+	overflow: hidden;
+}.c22:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c23{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 670px;
+	margin-top: 1260px;
+	cursor: pointer;
+	overflow: hidden;
+}.c23:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c24{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 990px;
+	margin-top: 1260px;
+	cursor: pointer;
+	overflow: hidden;
+}.c24:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+
+
+div.c25{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 1470px;
+	cursor: pointer;
+	overflow: hidden;
+}.c25:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+
+div.c26{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 1470px;
+	cursor: pointer;
+	overflow: hidden;
+}.c26:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c27{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 670px;
+	margin-top: 1470px;
+	cursor: pointer;
+	overflow: hidden;
+}.c27:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+div.c28{
+	border: solid #ff9999 3px;
+	width: 280px;
+	height: 180px;
+	position: absolute;
+	margin-left: 990px;
+	margin-top: 1470px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	overflow: hidden;
+}.c28:hover img{
+	transform: scale(1.2);
+	transition: all is ease-in;
+	filter: brightness(1.1);
+}
+

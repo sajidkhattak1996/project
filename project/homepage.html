@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Home_page_css.css">
+	<title> Online Hostel Reservation System </title>
+	
+  	<style>
+     .logo img{
+      height: 80px;
+      width: 140px;
+      margin-top:  -1123px;
+      margin-left: 20px;
+
+     }
+     
+    </style>
+</head>
+<body>
+	<div class="menu_design">
+		
+		<strong > <center>    Rehman Baba Hostel No 2 Peshawar    </center> </strong>
+    </div>
+	
+
+
+
+
+
+
+	<div class="menu">
+		<a href="homepage.html"> Home </a>
+		<a href="reservation_step1.php"> Reservation </a>
+		<a href="gallery.html"> Gallery </a>
+		<a href="fee.html"> Fee  </a>
+		<a href="contact.html"> Contact </a>
+
+	</div>
+	
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Hostel_pic\front\f4.jpg" style="width: 100%">
+  <div class="text">Hostel Front</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Hostel_pic\front\f1.jpg" style="width:100%">
+  <div class="text">Hostel board </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Hostel_pic\front\g3.jpg" style="width:100%">
+  <div class="text">Hostel Front</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<div class="logo">
+<img src="logo_&_icon\logo.png">
+</div>
+
+<div class="other_hostel">
+<h3><b>
+	HOSTEL IN PAKISTAN
+</b>
+</h3>
+</div>
+
+<div class="islamabad">   <a href="">	  <img src="Hostel_pic\isl.jpg">    </a></div>
+
+<div class="lahore">      <a href="">	  <img src="Hostel_pic\lhr.jpg">    </a></div>
+
+<div class="peshawar">     <a href="">	  <img src="Hostel_pic\gip1.jpg">    </a></div>
+
+<div class="karachi">      <a href="">	  <img src="Hostel_pic\karachi.jpg">    </a></div>
+
+<div class="mardan">     <a href="">	  <img src="Hostel_pic\Bhurban.jpg">    </a></div>
+
+<div class="isl_caption">
+	<a href="">ISLAMABAD </a>
+</div>
+
+<div class="lah_caption">
+	<a href="">LAHORE </a>
+</div>
+
+<div class="pes_caption">
+	<a href="">PESHAWAR </a>
+</div>
+
+<div class="kar_caption">
+	<a href="">KARACHI </a>
+</div>
+
+<div class="mar_caption">
+	<a href="">MARDAN </a>
+</div>
+
+<div class="footer"><pre>
+	
+		 RESERVIE ROOM NOW! 	                	 	OUR AFFILIATION
+
+		   Reservation:+92-3119258928        		Our Hostel Association is affiliated  
+		   Rehman Baba Hostel # II UOP		  	with Hostelling International in the 	
+		   sajidktkkpk@gmail.com              		Pakistan.
+		   bookings@hostel.com
+
+
+</pre></div>
+
+<div class="call">
+<img src="call.png">
+</div>
+<div class="location">
+	<img src="location.png">
+	
+</div>
+<div class="msg1">
+	<img src="msg.png">
+	
+</div>
+<div class="msg2">
+	<img src="msg.png">	
+</div>
+
+<div class="search">
+	<a href=""><img src="search.png"></a>
+	<input placeholder="Search" name="search">
+	
+</div>
+
+
+</body>
+</html>
