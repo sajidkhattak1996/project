@@ -94,11 +94,20 @@
 		 var pass = document.fm.password.value;
 
 		if (name=="") {
-		 	document.getElementById('msg').innerText = "* Please Select the Hostel Branch *"; 
+		 	document.getElementById('msg').innerText = "* Please Enter the name *"; 
 		 	// This segment displays the validation rule for  fields
 			return false;
 		}
 
+		if (email=="") {
+			document.getElementById('msg').innerText = " Please Enter the Email ";
+			return false;
+		}
+
+		if (pass=="") {
+			document.getElementById('msg').innerText =" Please Enter Your Password ";
+			return false;
+		}
 
 	}
 
