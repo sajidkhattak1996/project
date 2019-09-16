@@ -32,7 +32,8 @@ $name  =$_POST['name'];
 $email =$_POST['email'];
 $password = $_POST['password'];
 
-echo "<h5>".$name."<br>".$email."<br>".$password."<br><br>";
+//display the above variables 
+// echo "<h5>".$name."<br>".$email."<br>".$password."<br><br>";
 
 //parameter user  for the database connection 
 $server ="localhost";
@@ -58,10 +59,11 @@ if ($result->num_rows > 0)
 			//here start and creating the session variable 
 			session_start();
 			$_SESSION['n']=$name;
-			echo "n===".$_SESSION['n'];
-
-			echo "<h2>The Admin Page is Processing for You ... </h2>";
+			$_SESSION['em']=$email;
+			$_SESSION['ps']=$password;
 			
+//			echo "<h2>The Admin Page is Processing for You ... </h2>";
+			include("admindisplay.php");
 		}
 		else
 		{
