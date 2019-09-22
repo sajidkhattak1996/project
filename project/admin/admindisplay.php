@@ -55,7 +55,7 @@
 		width: 180px;
 		height: 180px;
 		margin-left: 87%;
-		margin-top: -13%;
+		margin-top: -12%;
 	}
 
 	#an{
