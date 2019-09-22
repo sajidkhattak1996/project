@@ -83,6 +83,6 @@ $con=mysqli_connect($server,$user,$password,$db);
 
 
 
-$con->close();
+
 
 ?>
