@@ -113,7 +113,7 @@
 
 </div>
 	<div class="pic">
-	<img src="logo_&_icon\heart.jpg" id="pich">
+	<img src="heart.jpg" id="pich">
     </div>
 </div>
 <?php
@@ -125,7 +125,7 @@ session_destroy();
 <form>
 <div class="menu">
 	<div class="menuinside">
-			<a href="hostel.html">Hostels Branch</a>
+			<a href="hostel.php">Hostels Branch</a>
 			<a href="">Exective Room</a>
 			<a href="">Bunk Room</a>
 			<a href="">All User Records</a>
